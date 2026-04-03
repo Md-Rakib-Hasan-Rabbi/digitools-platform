@@ -3,7 +3,7 @@ import user from '../../../assets/user.png';
 import product from '../../../assets/package.png';
 import rocket from '../../../assets/rocket.png';
 
-const Started = () => {
+const Steps = () => {
     return (
         <section className="bg-white py-16 lg:py-24">
             <div className="mx-auto w-11/12">
@@ -65,4 +65,4 @@ const Started = () => {
     );
 };
 
-export default Started;
+export default Steps;

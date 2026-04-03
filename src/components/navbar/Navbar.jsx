@@ -1,6 +1,7 @@
 import React from 'react';
+import cart from '../../assets/cart.png';
 
-const Navbar = () => {
+const Navbar = ({ cartCount }) => {
     return (
         <header className="w-full border-b border-sky-200 bg-white">
             <nav className="mx-auto flex h-20 max-w-11/12 items-center justify-between px-6">
@@ -17,7 +18,12 @@ const Navbar = () => {
                 </ul>
 
                 <div className="flex items-center gap-4 text-sm font-medium text-gray-700">
-                    <img src="./src/assets/cart.png" alt="Cart" />
+                    <div className="relative">
+                        <img src={cart} alt="Cart" />
+                        <span className="absolute -right-2 -top-2 flex h-5 min-w-5 items-center justify-center rounded-full bg-violet-600 px-1 text-xs font-bold text-white">
+                            {cartCount}
+                        </span>
+                    </div>
                     <a className="hidden transition-colors hover:text-violet-600 sm:inline" href="">
                         Login
                     </a>

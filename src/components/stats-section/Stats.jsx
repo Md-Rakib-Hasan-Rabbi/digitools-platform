@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Apps = () => {
+const Stats = () => {
     return (
-        <section className="max-w-11/12 bg-linear-to-r from-primary to-secondary py-8">
-            <div className="mx-auto ">
+        <section className="w-full bg-linear-to-r from-primary to-secondary py-8">
+            <div className="mx-auto w-full">
                 <div className="grid grid-cols-1 text-center md:grid-cols-3">
                     <div className="py-4 md:border-r">
                         <h3 className="text-5xl font-bold">50K+</h3>
@@ -23,4 +23,4 @@ const Apps = () => {
     );
 };
 
-export default Apps
+export default Stats;

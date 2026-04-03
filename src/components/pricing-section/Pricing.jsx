@@ -1,5 +1,5 @@
 import React from 'react';
-import right from '../../../assets/green_right.png';
+import right from '../../assets/green_right.png';
 
 const Pricing = () => {
     return (

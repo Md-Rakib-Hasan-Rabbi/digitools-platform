@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <header className="w-full border-b border-sky-200 bg-white">
-            <nav className="mx-auto flex h-20 w-full max-w-6xl items-center justify-between px-6">
+            <nav className="mx-auto flex h-20 max-w-11/12 items-center justify-between px-6">
                 <a className="text-5 font-bold tracking-tight text-violet-600" href="#">
                     DigiTools
                 </a>
